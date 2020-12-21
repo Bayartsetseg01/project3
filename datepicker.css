@@ -1,0 +1,38 @@
+table {
+  background: rgb(201, 201, 195);
+  border-radius: 5%;
+  margin: auto;
+  box-shadow: 1px 2px 33px 1px rgba(0, 0, 0, 0.54);
+}
+table td {
+  color: black;
+  padding: 16px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: oblique;
+}
+table td:hover {
+  /* padding: 25px; */
+  font-size: 30px;
+  color: yellow;
+  text-shadow: 0 0 5px #fff, 0 0 10px #0a799b, 0 0 15px #0893ca,
+    0 0 15px #0893ca, 0 0 20px #0893ca, 0 0 25px #0893ca;
+}
+#month {
+  font-size: 28px;
+  color: black;
+  text-align: center;
+  animation: glow 0.7s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px yellow, 0 0 10px yellow, 0 0 15px rgb(17, 229, 236),
+0 0 15px rgb(123, 240, 93), 0 0 20px #d9e412, 0 0 23px #d9e412;
+  }
+
+  to {
+    text-shadow: 0 0 5px #0893ca, 0 0 10px #0893ca, 0 0 15px #08cac0,
+      0 0 15px #9ceb52, 0 0 20px #0893ca, 0 0 25px #0893ca;
+  }
+}
